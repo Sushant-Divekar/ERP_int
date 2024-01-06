@@ -1,0 +1,30 @@
+.top {
+    margin-top: 4%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: space-between;
+    
+}
+
+
+.b {
+    
+    width: 20vw;
+    border: 2px solid whitesmoke;
+    padding: 5vh;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+    color: black;
+    text-align: center;
+    margin-left: 5vw;
+    cursor: pointer;
+
+    
+}
+
+.b:hover {
+    transform: scale(1.05);
+}

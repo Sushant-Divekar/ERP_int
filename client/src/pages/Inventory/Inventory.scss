@@ -1,0 +1,134 @@
+.inventory{
+    
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content:center;
+
+    .inventory-info {
+        cursor: pointer;
+        // flex: 1;               // Each block takes equal space
+        margin-right: 5%;   // Adjust margin as needed
+        padding: 10px;
+        background-color: white;
+        border-radius: 4px;
+        text-align: center;
+        width: 20%;
+  
+        &:hover {
+          transform: scale(1.05); // Change color on hover
+        }
+      }
+
+      .add-new-product{
+        cursor: pointer;
+        // flex: 1;               // Each block takes equal space
+        margin-right: 5%;   // Adjust margin as needed
+        padding: 10px;
+        background-color: white;
+        border-radius: 4px;
+        text-align: center;
+        width: 20%;
+  
+        &:hover {
+          transform: scale(1.05); // Change color on hover
+        }
+      }
+    
+      // Styling for the "Graphical View" block
+      .graphical-view {
+        cursor: pointer;
+        // flex: 1;
+        // margin-right: 5%;
+        padding: 10px;
+        background-color: white;
+        border-radius: 4px;
+        text-align: center;
+        width: 20%;
+  
+        &:hover {
+          transform: scale(1.05);  // Change color on hover
+        }
+      }
+    
+}
+
+.inventoryTable{
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 16px;
+    }
+  
+    table {
+      width:100vw;
+      border-collapse: collapse;
+      margin-top: 16px;
+      background-color: #2a3447;
+      
+      th, td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: left;
+  
+    
+      }
+  
+      th {
+        background-color: #333;
+        color: white;
+      }
+  
+      tbody tr {
+        color : white;
+        // background-color: #f9f9f9;
+        
+      }
+    }
+  }
+  
+  .showOrderStatus {
+    display: table-row-group; /* Show the tbody when showOrderStatus is true */
+  }
+  
+  .showOrderStatus thead {
+    display: table-header-group; /* Show the thead when showOrderStatus is true */
+  }
+  
+  .create-form {
+    max-width: 400px; /* Set a maximum width for the form */
+    margin: 20px auto; /* Center the form horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color : white;
+  
+    label {
+      display: block; /* Display labels as block elements */
+      margin-bottom: 5px;
+    }
+  
+    input,
+    textarea,
+    select {
+      width: 100%; /* Make form fields take up full width */
+      margin-bottom: 10px;
+      padding: 8px;
+      box-sizing: border-box;
+    }
+  
+    button {
+      background-color: #4caf50;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  
+    button[type='button'] {
+      background-color: #f44336;
+    }
+  }
+  
